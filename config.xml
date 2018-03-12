@@ -89,6 +89,7 @@
         <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
     </platform>
 	
+	<preference name="SplashScreenDelay" value="20000" />
 	<preference name="AutoHideSplashScreen" value="true" />
 	
     <access origin="*" />
