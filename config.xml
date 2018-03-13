@@ -49,7 +49,7 @@
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
 
 	<splash src="www/res/splash.png" />
-	<plugin name="cordova-plugin-splashscreen" source="npm" />
+	<plugin name="cordova-plugin-splashscreen" />
 	<preference name="SplashScreen" value="splash" />
 	<preference name="AutoHideSplashScreen" value="true" />
 	<preference name="SplashScreenDelay" value="5000" />
