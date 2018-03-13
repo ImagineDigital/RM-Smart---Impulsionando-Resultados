@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div class="app" onclick="navigator.splashscreen.show();">
+    <div id="output" class="app">
 	teste 1<br>
 	teste 2
     </div>
@@ -32,11 +32,14 @@
         app.initialize();
     </script>
     <script type="text/javascript">
-		navigator.splashscreen.show();
-		//document.addEventListener("deviceready", onDeviceReady, false);
+		//navigator.splashscreen.show();
+		document.addEventListener("deviceready", onDeviceReady, false);
 
 		function onDeviceReady() {
-			checkConnection();
+			var msgDiv = document.getElementById('output');
+			msgDiv.innerHTML = JSON.stringify(navigator.splashscreen);
+			console.log(msgDiv);
+			//checkConnection();
 		}
 
         function checkConnection() {
