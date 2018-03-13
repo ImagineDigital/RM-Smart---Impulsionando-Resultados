@@ -30,6 +30,7 @@
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
 	
+	<icon src="www/res/icone-ios-1024.png" />
 	<splash src="www/res/splash.png" />
 	<preference name="SplashScreen" value="screen" />
 	<preference name="SplashScreenDelay" value="5000"/>
