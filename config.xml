@@ -3,7 +3,7 @@
 	id="com.rmsmart" 
 	version="1.0"
 	android-versionCode="1.0"
-	ios-CFBundleVersion="1.0"	
+	ios-CFBundleVersion="1.1"	
 	xmlns="http://www.w3.org/ns/widgets" 
 	xmlns:gap="http://phonegap.com/ns/1.0">
     
