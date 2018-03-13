@@ -47,10 +47,10 @@ iframe{
 	border:none;
 	margin:0;
 	padding:0;
-	background:#FFF;
+	background:#f00;
 }
 .offline{
-	background:#f00;
+	background:#000;
 	position: relative;
 	display:block;
     width:100%;	
