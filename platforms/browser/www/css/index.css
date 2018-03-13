@@ -32,6 +32,7 @@ body {
 	border:none;
     padding:0px;
     width:100%;
+	color:#FFF;
 }
 html{
     width:100%;	
@@ -46,6 +47,7 @@ iframe{
 	border:none;
 	margin:0;
 	padding:0;
+	background:#FFF;
 }
 .offline{
 	background:#000;

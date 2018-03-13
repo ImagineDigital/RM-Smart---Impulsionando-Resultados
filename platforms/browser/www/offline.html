@@ -32,7 +32,13 @@
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
-		navigator.splashscreen.hide();
+    </script>
+    <script type="text/javascript">
+		document.addEventListener("deviceready", onDeviceReady, false);
+		
+		function onDeviceReady() {
+			navigator.splashscreen.hide();
+		}
     </script>
 </body>
 

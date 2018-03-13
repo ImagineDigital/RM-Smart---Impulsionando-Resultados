@@ -16,7 +16,15 @@
 	
     <script type="text/javascript">
         app.initialize();
-		navigator.splashscreen.hide();
+    </script>
+    <script type="text/javascript">
+		document.addEventListener("deviceready", onDeviceReady, false);
+		
+		function onDeviceReady() {
+			document.getElementById('iframe').onload = function() {
+				navigator.splashscreen.hide();
+			}
+		}
     </script>
 </body>
 
