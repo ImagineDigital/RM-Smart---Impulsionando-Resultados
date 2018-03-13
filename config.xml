@@ -33,6 +33,7 @@
 	<splash src="www/res/splash.png" />
 	<preference name="SplashScreen" value="screen" />
 	<preference name="SplashScreenDelay" value="5000"/>
+	<preference name="AutoHideSplashScreen" value="false" />
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
