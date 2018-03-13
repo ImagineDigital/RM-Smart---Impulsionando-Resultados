@@ -56,6 +56,7 @@
         <splash gap:qualifier="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <platform name="ios">
+		<engine name="ios" spec="^4.5.1" />
         <icon height="57" src="www/res/icon/ios/icon.png" width="57" />
         <icon height="114" src="www/res/icon/ios/icon@2x.png" width="114" />
         <icon height="40" src="www/res/icon/ios/icon-40.png" width="40" />
@@ -99,5 +100,4 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-	<engine name="ios" spec="^4.5.1" />
 </widget>
