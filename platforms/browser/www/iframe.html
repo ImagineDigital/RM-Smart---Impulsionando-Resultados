@@ -22,7 +22,9 @@
 		
 		function onDeviceReady() {
 			document.getElementById('iframe').onload = function() {
-				navigator.splashscreen.hide();
+				setTimeout(function() {
+					navigator.splashscreen.hide();
+				}, 2000);
 			}
 		}
     </script>
