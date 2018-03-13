@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
 	id="com.rmsmart" 
-	version="1.1.5"
-	android-versionCode="1.1.5"
-	ios-CFBundleVersion="1.1.5"	
+	version="1.1.6"
+	android-versionCode="1.1.6"
+	ios-CFBundleVersion="1.1.6"	
 	xmlns="http://www.w3.org/ns/widgets" 
 	xmlns:gap="http://phonegap.com/ns/1.0">
     
@@ -32,6 +32,7 @@
 	<icon height="1024" width="1024" src="www/res/icone-ios-1024.png" />
 	<splash src="www/res/splash.png" />
 	<preference name="SplashScreen" value="screen" />
+	<preference name="SplashScreenDelay" value="5000"/>
 	<preference name="AutoHideSplashScreen" value="true" />
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
@@ -84,7 +85,6 @@
         <splash height="480" src="www/res/screen/ios/Default~iphone.png" width="320" />
     </platform>
 	
-    <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -92,6 +92,8 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
 	<allow-navigation href="*" />
+	<allow-intent href="*" />
+	<access origin="*" allows-arbitrary-loads-in-media="true" allows-arbitrary-loads-in-web-content="true" allows-local-networking="true" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
