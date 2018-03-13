@@ -28,6 +28,4 @@
     <preference name="permissions" value="none" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
-    <preference name="SplashScreenDelay" value="20000" />
-    <preference name="AutoHideSplashScreen" value="true" />
 </widget>

@@ -47,10 +47,18 @@
 
    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" /> 
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
-    <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
-	
-	
+
 	<splash src="www/res/splash.png" />
+	<plugin name="cordova-plugin-splashscreen" source="npm">
+		  <preference name="SplashScreen" value="splash" />
+		  <preference name="AutoHideSplashScreen" value="true" />
+		  <preference name="SplashScreenDelay" value="5000" />
+		  <preference name="SplashMaintainAspectRatio" value="true" />
+		  <preference name="FadeSplashScreen" value="false"/>
+		  <preference name="ShowSplashScreenSpinner" value="false" />
+	</plugin>  
+	
+	
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
@@ -100,9 +108,6 @@
         <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
     </platform>
 	
-	<preference name="SplashScreenDelay" value="20000" />
-	<preference name="AutoHideSplashScreen" value="true" />
-	
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -110,7 +115,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <platform name="android">
+    <platform name="android">	
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
