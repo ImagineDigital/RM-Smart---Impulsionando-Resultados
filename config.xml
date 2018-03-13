@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.rmsmart" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>RM Smart - Impulsionando Resultados</name>
+<widget 
+	id="com.rmsmart" 
+	version="1.0"
+	android-versionCode="1.0"
+	ios-CFBundleVersion="1.0"	
+	xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0">
+    
+	<name>RM Smart - Impulsionando Resultados</name>
     <description>
         RM Smart - Impulsionando Resultados
     </description>
@@ -10,6 +17,7 @@
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+
 	
     <preference name="orientation" value="portrait" />
 	<preference name="permissions" value="none" />
