@@ -78,6 +78,10 @@ iframe{
 	font-size:14px;
 	line-height:18px;
 }
+.offline .texto p{
+	margin-bottom: 15px;
+	font-size:15px;
+}
 h1 {
     font-size:24px;
     font-weight:normal;
