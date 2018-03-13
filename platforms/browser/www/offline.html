@@ -20,12 +20,17 @@
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <title>RM Smart - Impulsionando Resultados</title>
 </head>
-<div> - Offline -</div>
+<div class="offline">
+	<img src="img/logo-rm.php.png">
+	
+	<div class="texto">Verifique sua conexão<br>com a Internet...</div>
+</div>
 <body>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
+		navigator.splashscreen.hide();
     </script>
 </body>
 
