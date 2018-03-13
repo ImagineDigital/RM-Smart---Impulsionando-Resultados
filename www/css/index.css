@@ -50,7 +50,7 @@ iframe{
 	background:#FFF;
 }
 .offline{
-	background:#000;
+	background:#f00;
 	position: relative;
 	display:block;
     width:100%;	
