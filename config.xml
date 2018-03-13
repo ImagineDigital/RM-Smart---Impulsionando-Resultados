@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
 	id="com.rmsmart" 
-	version="1.1.4"
-	android-versionCode="1.1.4"
-	ios-CFBundleVersion="1.1.4"	
+	version="1.1.5"
+	android-versionCode="1.1.5"
+	ios-CFBundleVersion="1.1.5"	
 	xmlns="http://www.w3.org/ns/widgets" 
 	xmlns:gap="http://phonegap.com/ns/1.0">
     
@@ -25,9 +25,9 @@
 	<feature name="http://api.phonegap.com/1.0/device" />
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
-    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <plugin name="cordova-plugin-whitelist" source="npm" />
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
-    <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
 	
 	<icon height="1024" width="1024" src="www/res/icone-ios-1024.png" />
 	<splash src="www/res/splash.png" />
