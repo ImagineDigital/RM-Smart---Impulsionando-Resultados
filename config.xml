@@ -49,18 +49,20 @@
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
 
 	<splash src="www/res/splash.png" />
-	<plugin name="cordova-plugin-splashscreen" source="npm">
-		  <preference name="SplashScreen" value="splash" />
-		  <preference name="AutoHideSplashScreen" value="true" />
-		  <preference name="SplashScreenDelay" value="5000" />
-		  <preference name="SplashMaintainAspectRatio" value="true" />
-		  <preference name="FadeSplashScreen" value="false"/>
-		  <preference name="ShowSplashScreenSpinner" value="false" />
-	</plugin>  
+	<plugin name="cordova-plugin-splashscreen" source="npm" />
+	<preference name="SplashScreen" value="splash" />
+	<preference name="AutoHideSplashScreen" value="true" />
+	<preference name="SplashScreenDelay" value="5000" />
+	<preference name="SplashMaintainAspectRatio" value="true" />
+	<preference name="FadeSplashScreen" value="false"/>
+	<preference name="ShowSplashScreenSpinner" value="false" />
 	
 	
     <platform name="android">
-        <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
+		<preference name="SplashScreen" value="www/res/screen/android/drawable-land-ldpi-screen.png" />  
+		<splash src="www/res/screen/android/drawable-land-ldpi-screen.png"/>  
+       
+		<icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
         <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
         <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" />
@@ -80,6 +82,9 @@
         <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <platform name="ios">
+		<preference name="SplashScreen" value="www/res/screen/ios/Default-568h@2x~iphone.png" />  
+		<splash src="www/res/screen/ios/Default-568h@2x~iphone.png"/>
+	
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
         <icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
