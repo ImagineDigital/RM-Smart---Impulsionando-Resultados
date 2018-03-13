@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
 	id="com.rmsmart" 
-	version="1.0"
+	version="1.1"
 	android-versionCode="1.0"
 	ios-CFBundleVersion="1.1"	
 	xmlns="http://www.w3.org/ns/widgets" 
